@@ -1,0 +1,40 @@
+{
+  "name": "fabric-react",
+  "version": "0.0.1",
+  "description": "React wrapper for fabricjs.",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack --config ./webpack/webpack.config.dev --watch",
+    "build": "webpack --config ./webpack/webpack.config.prod",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekucera2002/fabric-react.git"
+  },
+  "keywords": [
+    "fabricjs",
+    "react",
+    "javascript"
+  ],
+  "author": "Joe Kucera <joekucera2002@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joekucera2002/fabric-react/issues"
+  },
+  "homepage": "https://github.com/joekucera2002/fabric-react#readme",
+  "dependencies": {
+    "fabricjs": "^1.0.0",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.3.0",
+    "webpack-merge": "^4.1.0"
+  }
+}
