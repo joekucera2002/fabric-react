@@ -15,6 +15,4 @@ const config = Merge(CommonConfig, {
   ]
 });
 
-console.log(config);
-
 module.exports = config;
