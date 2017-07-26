@@ -9,6 +9,7 @@
     "lint": "esw . --ext .js --ext .jsx",
     "lint-watch": "npm run lint -- --watch",
     "test": "jest",
+    "test-cover": "jest --config ./jest.coverage.json && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test-watch": "npm run test -- --watch"
   },
   "repository": {
@@ -36,6 +37,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "coveralls": "^2.13.1",
     "enzyme": "^2.9.1",
     "eslint": "^4.3.0",
     "eslint-config-airbnb": "^15.1.0",
