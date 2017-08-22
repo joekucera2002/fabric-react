@@ -15,12 +15,12 @@ test_script:
   - node --version
   - npm --version
   # run build script
-  - npm build
+  - npm run build
   # run lint
-  - npm lint
+  - npm run lint
   # run tests and coverage
-  - npm test
-  - npm test-cover
+  - npm run test
+  - npm run test-cover
 
 # Don't actually build.
 build: off
